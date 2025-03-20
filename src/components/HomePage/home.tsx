@@ -26,9 +26,9 @@ function Home() {
               <div className="hidden md:block">
                 <div className="flex items-center space-x-4">
                   <Link href="/" className="px-3 py-2 text-indigo-600 font-medium rounded-md bg-indigo-50">Home</Link>
-                  <Link href="/about" className="px-3 py-2 text-gray-700 font-medium rounded-md hover:bg-gray-100">About</Link>
-                  <Link href="/services" className="px-3 py-2 text-gray-700 font-medium rounded-md hover:bg-gray-100">Services</Link>
-                  <Link href="/contact" className="px-3 py-2 text-gray-700 font-medium rounded-md hover:bg-gray-100">Contact</Link>
+                  <Link href="/" className="px-3 py-2 text-gray-700 font-medium rounded-md hover:bg-gray-100">About</Link>
+                  <Link href="/" className="px-3 py-2 text-gray-700 font-medium rounded-md hover:bg-gray-100">Services</Link>
+                  <Link href="/" className="px-3 py-2 text-gray-700 font-medium rounded-md hover:bg-gray-100">Contact</Link>
                 </div>
               </div>
               {/* Mobile menu button */}
