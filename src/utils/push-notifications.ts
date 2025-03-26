@@ -16,7 +16,7 @@ export async function registerPushNotifications() {
 
     // Register service worker
     const registration = await navigator.serviceWorker.register(
-      "/service-worker.js"
+      "/sw.js"
     );
 
     // Subscribe to push notifications
